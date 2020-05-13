@@ -18,7 +18,7 @@ transform.localScale = newScale; *(saving the new size)*
 ## May 13, 2020
 Physics in Unity
 ### Concepts used:
-Rigidbody2D rb2d = GetComponent<Rigidbody2D>();  
+Rigidbody2D rb2d = GetComponent/<Rigidbody2D/>();  
 rb2d.AddForce( new Vector2(1,0),  
   ForceMode2D.Impulse );  
   
