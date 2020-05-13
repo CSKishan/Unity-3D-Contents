@@ -39,7 +39,7 @@ float magnitude = UnityEngine.Random.Range(minImpulse, maxImpulse);
 ```  
 Calculating a random angle for motion.  
 ```csharp
-float angle = UnityEngine.Random.Range(0, 2\*Math.PI);
+float angle = UnityEngine.Random.Range(0, 2*Math.PI);
 ```  
 Choosing direction.  
 ```csharp
