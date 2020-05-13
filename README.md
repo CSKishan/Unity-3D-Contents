@@ -7,9 +7,9 @@ The repository is a cumulative work on Unity game development course.
 Three Teddy Bears resizing project.
 ### Concept used:
 Vector3 newScale = transform.localScale;
-newScale.x (X coordinates)
-newScale.y (Y coordinates)
-newScale.z (Z coordinates)
+newScale.x (X coordinates)\n
+newScale.y (Y coordinates)\n
+newScale.z (Z coordinates)\n
 
 newScale.x \*=3; (expanding x measure by 3) 
 transform.localScale = newScale; (saving the new size)
