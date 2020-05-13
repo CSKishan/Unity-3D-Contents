@@ -33,11 +33,37 @@ AddForce() : Method to add force to the intended object.
 #### Creating collisions
 
 Giving max and min value to impulses.  
-```const float minImpulseForce = 3f;```  
+```
+const float minImpulse = 3f;
+const float maxImpulse = 5f;
+float magnitude = UnityEngine.Random.Range(minImpulse, maxImpulse);
+```  
 Calculating a random angle for motion.  
-```float angle = UnityEngine.Random.Range(0, 2\*Math.PI);```  
+```
+float angle = UnityEngine.Random.Range(0, 2\*Math.PI);
+```  
 Choosing direction.  
+```
+Vector2 direction = new Vector2(
+  Mathf.Cos(angle), Mathf.Sin(angle));
+```
+Apply the force.  
+```
+GetComponent<Rigidbody2D>().AddForce(
+  direction*magnitude, 
+  ForceMode2D.Impulse);
+```
+Creating colliders   
++ Box Collider 2D & Edge Collider 2D
++ Designing prefabs  
 
+Handing collision (using method)  
+```javascript
+private void OnCollisionEnter2D(Collision2D coll)
+{
+  print("Collison occurred.");
+}
+```
 
   
   
