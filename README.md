@@ -21,7 +21,7 @@ Physics in Unity
 ### Concepts used:
 #### Movement of objects
 ```
-Rigidbody2D rb2d = GetComponent\<Rigidbody2D\>();  
+Rigidbody2D rb2d = GetComponent<Rigidbody2D>();  
 rb2d.AddForce( new Vector2(1,0),  
   ForceMode2D.Impulse );  
 ```
