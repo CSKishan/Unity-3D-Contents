@@ -13,4 +13,4 @@ newScale.z (Z coordinates)
   
 newScale.x \*=3; (expanding x measure by 3)   
 transform.localScale = newScale; (saving the new size)  
-*Note: copy-change-copy methodology is used in C# as opposed to direct changes 
+*Note: copy-change-copy methodology is used in C# as opposed to direct changes*   
