@@ -30,9 +30,9 @@ AddForce() : Method to add force to the intended object.
 #### Creating collisions
 
 Giving max and min value to impulses.  
-+const float minImpulseForce = 3f;
++ const float minImpulseForce = 3f;
 Calculating a random angle for motion.  
-+float angle = UnityEngine.Random.Range(0, 2\*Math.PI);  
++ float angle = UnityEngine.Random.Range(0, 2\*Math.PI);  
 Choosing direction.  
 
   
