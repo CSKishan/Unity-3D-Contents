@@ -58,7 +58,7 @@ Creating colliders
 + Designing prefabs  
 
 Handing collision (using method)  
-```javascript
+```csharp
 private void OnCollisionEnter2D(Collision2D coll)
 {
   print("Collison occurred.");
