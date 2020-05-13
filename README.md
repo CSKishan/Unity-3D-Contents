@@ -19,8 +19,8 @@ transform.localScale = newScale; *(saving the new size)*
 Physics in Unity
 ### Concepts used:
 Rigidbody2D rb2d = GetComponent<Rigidbody2D>();  
-rb2d.AddForce(new Vector2(1,0),  
-  ForceMode2D.Impulse);  
+rb2d.AddForce( new Vector2(1,0),  
+  ForceMode2D.Impulse );  
   
   Vector2(1,0) : Move the object in the x-axis with 1 unit impulse.  
   ForceMode2D : Force used is of Impulse type.  
