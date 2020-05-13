@@ -3,7 +3,7 @@ On course, Unity Game Development
 
 The repository is a cumulative work on Unity game development course.
 
-## May 13, 2020  
+## May 07, 2020  
 Three Teddy Bears resizing project.  
 ### Concept used:  
 Vector3 newScale = transform.localScale;  
